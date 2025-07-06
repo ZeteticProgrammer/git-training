@@ -9,7 +9,6 @@ int factorial(int x){
 }
 
 int main(){
-    //revert commit test 
     std::cout << "Enter a number: ";
     int x = 0;
     std::cin >> x;
