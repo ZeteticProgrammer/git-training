@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 int factorial(int x){
     if (x == 0) {
@@ -12,7 +13,7 @@ int main(){
     int x = 0;
     std::cin >> x;
     "\n";
-    std::cout << "factorial of " << x << " is: " << factorial(x);
-    std::cin.get();
+    std::cout << "factorial of " << x << " is: " << factorial(x) << std::endl;
+    system("pause");
     return 0;
 }
