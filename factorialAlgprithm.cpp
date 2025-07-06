@@ -12,7 +12,6 @@ int main(){
     std::cout << "Enter a number: ";
     int x = 0;
     std::cin >> x;
-    "\n";
     std::cout << "factorial of " << x << " is: " << factorial(x) << std::endl;
     system("pause");
     return 0;
